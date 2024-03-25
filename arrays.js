@@ -72,3 +72,22 @@ arr2.unshift("Hi");
   ///////////////////////////  
  // deleting from an array
 ///////////////////////////
+
+// 1. using pop()
+var deleted = arr.pop();
+console.log("Deleted: " + deleted);
+
+
+
+  ///////////////////////////////////////  
+ // transforming array to single string
+////////////////////////////////////////
+console.log(arr);
+
+// 1. using toString()
+var message = arr.toString();
+console.log(message);
+
+// 2. using join() -> taking argument for the separation value/character/string
+var message2 = arr2.join(" ");
+console.log(message2);
