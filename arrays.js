@@ -77,6 +77,12 @@ arr2.unshift("Hi");
 var deleted = arr.pop();
 console.log("Deleted: " + deleted);
 
+// 2. using shift()
+var del = arr2.shift();
+console.log("Deleted: " + del);
+
+// 3. delete operator
+delete arr[2];
 
 
   ///////////////////////////////////////  
