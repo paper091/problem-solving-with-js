@@ -13,6 +13,7 @@ var arr2 = new Array("everyone", "paper", "this side", "!");
   /////////////////////////////// 
  // checking the size an array
 ///////////////////////////////
+
 var l = (arr.length-1);
 var l2 = (arr2.length-1);
 console.log("length of array 1: " + l);
